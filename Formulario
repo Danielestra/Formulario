@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas sobre Formulários HTML</title>
+</head>
+<body>
+    <h1>Nome: Daniel</h1>
+
+    <h2>Respostas às perguntas sobre formulários HTML</h2>
+
+    <p><strong>1. Para que serve o atributo “placeholder” na tag  com atributo type="text"?</strong></p>
+    <p>- O atributo `placeholder` fornece um texto de exemplo que aparece dentro do campo de entrada antes que o usuário comece a digitar. Esse texto desaparece assim que o usuário começa a inserir seu próprio texto.</p>
+
+    <p><strong>2. Para que serve o atributo “checked” na tag  com atributo type="radio" ou type="checkbox"?</strong></p>
+    <p>- O atributo `checked` pré-seleciona um botão de rádio ou uma caixa de seleção quando a página é carregada. Para caixas de seleção, indica que a opção está marcada. Para botões de rádio, indica que a opção está selecionada.</p>
+
+    <p><strong>3. Para que serve o atributo “value” na tag ?</strong></p>
+    <p>- O atributo `value` define o valor inicial de um campo de entrada, que será enviado ao servidor quando o formulário for submetido. Para botões, é o texto que aparece no botão.</p>
+
+    <p><strong>4. Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?</strong></p>
+    <p>- O atributo `name` deve ser o mesmo para todos os botões de rádio que você deseja agrupar. Isso permite que apenas um botão de rádio do grupo seja selecionado de cada vez.</p>
+
+    <p><strong>5. Para que serve a tag <label>? Para que serve o atributo “for” nessa tag?</strong></p>
+    <p>- A tag `<label>` é usada para definir um rótulo para um elemento de formulário, geralmente um campo de entrada. O atributo `for` associa o rótulo a um elemento de formulário específico, ligando-o ao ID do elemento. Isso melhora a acessibilidade e permite que o clique no rótulo ative o campo de entrada correspondente.</p>
+
+    <p><strong>6. Para que serve o atributo “selected” na tag <option>?</strong></p>
+    <p>- O atributo `selected` pré-seleciona uma opção em uma lista de opções quando a página é carregada. O usuário verá essa opção selecionada como padrão no menu suspenso.</p>
+
+    <p><strong>7. Para que serve o atributo “required” nas tags de formulário?</strong></p>
+    <p>- O atributo `required` indica que um campo de formulário é obrigatório e não pode ser enviado em branco. O navegador irá alertar o usuário para preencher este campo antes de permitir a submissão do formulário.</p>
+
+    <p><strong>8. Para que serve a tag </strong></p>
+    <p>- A tag é usada para criar um campo de texto multi-linha onde o usuário pode inserir texto livre. É útil para comentários, descrições e outras entradas de texto mais longas.</p>
+
+    <p><strong>9. Para que serve o atributo “action” na tag <form>?</strong></p>
+    <p>- O atributo `action` define a URL para onde os dados do formulário devem ser enviados quando o formulário é submetido. É o endereço do script ou página que processará os dados do formulário.</p>
+
+    <p><strong>10. Para que serve o atributo “method” na tag <form>?</strong></p>
+    <p>- O atributo `method` especifica o método HTTP a ser usado ao enviar os dados do formulário. Os valores comuns são `GET` e `POST`. `GET` anexa os dados à URL, enquanto `POST` envia os dados no corpo da solicitação HTTP.</p>
+
+    <p><strong>11. Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo “method” na tag <form>?</strong></p>
+    <p>- O valor do atributo `method` deve ser `POST`. Isso garante que os dados do formulário sejam enviados no corpo da solicitação HTTP, não aparecendo na barra de endereços.</p>
+
+    <p><strong>12. Qual valor deve ser informado no atributo “method” na tag <form> em um formulário que será usado para fazer upload de arquivos?</strong></p>
+    <p>- O valor do atributo `method` deve ser `POST`. Além disso, é necessário usar o atributo `enctype="multipart/form-data"` para permitir o upload de arquivos.</p>
+
+    <p><strong>13. O que as tags  e  produzem?</strong></p>
+    <p>- A tag é usada para agrupar elementos de um formulário dentro de um contorno, criando um bloco lógico de campos relacionados. A tag  fornece uma legenda para o que aparece como um título no contorno do campo. Isso melhora a organização e a acessibilidade do formulário.</p>
+
+    <h2>Formulário</h2>
+    <p>Para acessar o formulário, clique no link abaixo:</p>
+    <a href="formulario.html">Acessar Formulário</a>
+</body>
+</html>
